@@ -2,7 +2,7 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 // SandGrid
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey("YOURSENDGRIDAPIKEY");
+sgMail.setApiKey("AIzaSyBHLgAg8omFtnUfTRdPafYyN_AF_1glF3o");
 
 admin.initializeApp();
 
@@ -17,7 +17,7 @@ const sendSendGridMail = async (snap) => {
             from:"DevFest India Team <no-reply@devfestindia.com>",
             dynamicTemplateData:{name:fname},
             to: email,
-            templateId:"EMAILTEMPLATEID",
+            templateId:"noreply@.firebaseapp.com",
         }).then(res=>{
             console.log('Called')
             console.log(res)
