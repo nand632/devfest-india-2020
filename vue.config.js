@@ -22,3 +22,11 @@ module.exports = {
     },
   }
 }
+
+// vue.config.js file to be place in the root of your repository
+
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/devfest-india-2020/'
+    : '/'
+}
