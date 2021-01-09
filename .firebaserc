@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "devfestindia-15728"
+    "default": "devfair2021-28483",
+    "staging": "devfair-fb74f",
+    "development": "devfair-2cdbb",
+    "Development": "devfair-2cdbb"
   }
 }

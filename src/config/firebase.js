@@ -1,23 +1,10 @@
-
-import firebase from 'firebase/app';
-import 'firebase/auth';   
-import 'firebase/firestore';
-
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBHLgAg8omFtnUfTRdPafYyN_AF_1glF3o",
-  authDomain: "devfestindia-15728.firebaseapp.com",
-  projectId: "devfestindia-15728",
-  storageBucket: "devfestindia-15728.appspot.com",
-  messagingSenderId: "783040005621",
-  appId: "1:783040005621:web:75f33f12ddcad404ff8cbc",
-  measurementId: "G-HTXGSJ6ZC4"
-};
-
-firebase.initializeApp(firebaseConfig);
-firebase.firestore().enablePersistence({synchronizeTabs:!0}).catch(()=>{console.warn("DB offline support not available")})
-export default{
-  firestore: firebase.firestore(),
-  auth:firebase.auth(),
-  firebase:firebase
+  apiKey: "AIzaSyCHfeSTqK1HVJpNFbS5H4KgmHGfa2B_CR8",
+  authDomain: "devfair-2cdbb.firebaseapp.com",
+  projectId: "devfair-2cdbb",
+  storageBucket: "devfair-2cdbb.appspot.com",
+  messagingSenderId: "1041454351498",
+  appId: "1:1041454351498:web:9eaa99cff2eac0ed649973",
+  measurementId: "G-R9C5NR5865"
 };

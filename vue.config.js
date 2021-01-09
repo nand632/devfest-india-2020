@@ -1,4 +1,7 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+     ? './'
+     : '/',
   chainWebpack: config=>{
     config.plugins.delete('prefetch')
   },
@@ -7,7 +10,7 @@ module.exports = {
     "vuetify"
   ],
   pwa: {
-    name: 'DevFestIndia',
+    name: 'DevFest India',
     workboxPluginMode: 'InjectManifest',
     themeColor: '#3F51B5',
     msTileColor: '#3F51B5',
@@ -21,12 +24,4 @@ module.exports = {
       swDest: 'service-worker.js',
     },
   }
-}
-
-// vue.config.js file to be place in the root of your repository
-
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/devfest-india-2020/'
-    : '/'
 }
