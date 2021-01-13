@@ -34,6 +34,7 @@
               </p>
               <!-- {{data.social}} -->
               <socialMediaDetails class="pl-0 ml-0" :socaillinks="data.social" />
+              
             </v-col>
             <v-col md="8" cols="12">
               <p class="google-font" style="font-size:110%">{{ data.bio }}</p>
