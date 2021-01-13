@@ -22,7 +22,7 @@
             </p>
             <p class="google-font">
               The mega event is set to happen on
-              <b>Oct 16th, 17th & 18th</b> with the
+              <b>Mar 02th to 10th, 2021</b> with the
               line-up of expert speakers, multiple tracks, fun engagements and many more.
             </p>
           </div>
@@ -413,7 +413,7 @@
                   ></v-checkbox>
                   <p
                     class="mt-3"
-                  >I agree to let DevFest India Organisers use the information collected in this form to be used for my participation in "DevFest India 2020 Event".</p>
+                  >I agree to let DevFair India Organisers use the information collected in this form to be used for my participation in "DevFair India 2021 Event".</p>
                   <p>
                     I have read and agree to the
                     <router-link to="/tc" target="_blank">Participation Terms</router-link>, <router-link to="/coc" target="_blank">Code of conducts</router-link> & <a href="https://developers.google.com/community-guidelines" rel=“noreferrer” target="_blank">Community Guidelines</a>
@@ -449,12 +449,12 @@
                     target="_blank"
                     style="text-decoration:none;color:#0005DF"
                   >
-                    <b>#DevFestIndia</b>
+                    <b>#DevFair</b>
                   </a>.
                 </h3>
                 <p class="google-font">
                   Thank you for registering for
-                  <b>#DevFestIndia</b> and giving
+                  <b>#DevFairIndia</b> and giving
                   us the honour to host you at India's biggest developer
                   conclave.
                   <br />You will be receiving the confirmation mail soon from:
@@ -517,7 +517,7 @@
                 <h3 class="google-font">You have already submitted this form</h3>
                 <p class="mb-5">
                   Thank you for registering for
-                  <b>#DevFestIndia</b> and giving us the
+                  <b>#DevFairIndia</b> and giving us the
                   honour to host you at India's biggest developer conclave.
                   <br />You might have received or will be receiving the confirmation mail soon from:
                   <br />

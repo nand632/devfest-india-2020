@@ -7,7 +7,7 @@
           class="white"
           transition="fade-transition"
           style="width:90%;margin-left:auto;margin-right:auto"
-          :src="require('@/assets/img/cover.png')"
+          :src="require('@/assets/img/Cover.jpeg')"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">
@@ -19,8 +19,8 @@
           </template>
         </v-img>
         <p class="devfest-font mt-4 mb-3" style="font-size:120%">
-          <v-icon class="mb-1">mdi-calendar-text</v-icon>&nbsp;October 16-18,
-          2020
+          <v-icon class="mb-1">mdi-calendar-text</v-icon>&nbsp;March 02-10,
+          2021
           <span style="color:#0005DF">
             <b>|</b>
           </span>
@@ -29,7 +29,7 @@
         </p>
 
         <p class="google-font mt-4 mb-5">
-          <b style="color:#0005DF;font-size:120%">DevFest India</b> - India's
+          <b style="color:#0005DF;font-size:120%">DevFair India</b> - India's
           biggest developer conclave with 40+ GDG communities. <br />Separated
           by distance, united by passion.
         </p>
@@ -61,11 +61,11 @@
           :href="'https://twitter.com/hashtag/'+maindata.mainhashtag"
           class="google-font mt-0 mb-3"
           target="_blank"
-          >#DevFestIndia</v-btn
+          >#DevFairIndia</v-btn
         >
       </v-col>
       <v-col md="6" cols="12" class="text-center">
-        <Timer deadline="October 16, 2020" />
+        <Timer deadline="March 02, 2021" />
       </v-col>
     </v-row>
     <!-- Desktop Screen -->
@@ -76,7 +76,7 @@
           class="white"
           transition="fade-transition"
           style="width:90%;margin-left:auto;margin-right:auto"
-          :src="require('@/assets/img/cover.png')"
+          :src="require('@/assets/img/Cover.jpeg')"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">
@@ -88,15 +88,15 @@
           </template>
         </v-img>
         <p class="devfest-font mt-4 mb-3" style="font-size:120%">
-          <v-icon class="mb-1">mdi-calendar-text</v-icon>&nbsp;October 16-18,
-          2020
+          <v-icon class="mb-1">mdi-calendar-text</v-icon>&nbsp;March 02-10,
+          2021
           <br />
           <v-icon class="mb-1">mdi-access-point</v-icon>&nbsp;Online
         </p>
-        <Timer deadline="October 16, 2020" />
+        <Timer deadline="March 02, 2021" />
 
         <p class="google-font mt-4 mb-5">
-          <b style="color:#0005DF;font-size:120%">DevFest India</b> - India's
+          <b style="color:#0005DF;font-size:120%">DevFair India</b> - India's
           biggest developer <br />conclave with 40+ GDG communities.<br />
           <br />Separated by distance, <br />united by passion.
         </p>
@@ -127,7 +127,7 @@
           :href="'https://twitter.com/hashtag/'+maindata.mainhashtag"
           class="google-font ma-1"
           target="_blank"
-          >#DevFestIndia</v-btn
+          >#DevFairIndia</v-btn
         >
       </v-col>
     </v-row>

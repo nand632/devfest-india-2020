@@ -28,7 +28,7 @@
                   ? 'white--text'
                   : 'grey--text text--darken-2'
               "
-            >DevFest India</h1>
+            >DevFair India</h1>
           </v-card-text>
         </v-col>
       </v-row>

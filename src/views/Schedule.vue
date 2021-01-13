@@ -35,16 +35,31 @@
                 slider-color="#0005DF"
               >
                 <v-tab href="#day1">
-                  July 9
+                  March 2
                 </v-tab>
                 <v-tab href="#day2">
-                  July 10
+                  March 3
                 </v-tab>
                 <v-tab href="#day3">
-                  July 11
+                  March 4
                 </v-tab>
                 <v-tab href="#day4">
-                  July 12
+                  March 5
+                </v-tab>
+                <v-tab href="#day5">
+                  March 6
+                </v-tab>
+                <v-tab href="#day6">
+                  March 7
+                </v-tab>
+                <v-tab href="#day7">
+                  March 8
+                </v-tab>
+                <v-tab href="#day8">
+                  March 9
+                </v-tab>
+                <v-tab href="#day9">
+                  March 10
                 </v-tab>
               </v-tabs>
             </template>
@@ -123,6 +138,92 @@
                 </v-row>
               </v-container>
             </v-tab-item>
+            <v-tab-item value="day5" :class="$vuetify.theme.dark ? 'black' : 'white'">
+              <v-container>
+                <v-row>
+                  <v-col>
+                    <h3 class="google-font">Privacy & UX</h3>
+                    <p class="google-font" style="text-align:justify;">
+                      Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
+                      Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
+                    </p>
+              <!-- <ComingSoon /> -->
+
+                    <ScheduleDetails :data="ScheduleData[4]" />
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-tab-item>
+
+            <v-tab-item value="day6" :class="$vuetify.theme.dark ? 'black' : 'white'">
+              <v-container>
+                <v-row>
+                  <v-col>
+                    <h3 class="google-font">Privacy & UX</h3>
+                    <p class="google-font" style="text-align:justify;">
+                      Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
+                      Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
+                    </p>
+              <!-- <ComingSoon /> -->
+
+                    <ScheduleDetails :data="ScheduleData[5]" />
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-tab-item>
+
+            <v-tab-item value="day7" :class="$vuetify.theme.dark ? 'black' : 'white'">
+              <v-container>
+                <v-row>
+                  <v-col>
+                    <h3 class="google-font">Privacy & UX</h3>
+                    <p class="google-font" style="text-align:justify;">
+                      Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
+                      Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
+                    </p>
+              <!-- <ComingSoon /> -->
+
+                    <ScheduleDetails :data="ScheduleData[6]" />
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-tab-item>
+
+            <v-tab-item value="day8" :class="$vuetify.theme.dark ? 'black' : 'white'">
+              <v-container>
+                <v-row>
+                  <v-col>
+                    <h3 class="google-font">Privacy & UX</h3>
+                    <p class="google-font" style="text-align:justify;">
+                      Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
+                      Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
+                    </p>
+              <!-- <ComingSoon /> -->
+
+                    <ScheduleDetails :data="ScheduleData[7]" />
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-tab-item>
+
+            <v-tab-item value="day9" :class="$vuetify.theme.dark ? 'black' : 'white'">
+              <v-container>
+                <v-row>
+                  <v-col>
+                    <h3 class="google-font">Privacy & UX</h3>
+                    <p class="google-font" style="text-align:justify;">
+                      Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
+                      Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
+                    </p>
+              <!-- <ComingSoon /> -->
+
+                    <ScheduleDetails :data="ScheduleData[8]" />
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-tab-item>
+            
+
           </v-tabs-items>
         </v-col>
       </v-row>

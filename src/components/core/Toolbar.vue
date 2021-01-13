@@ -39,7 +39,7 @@
         to="/"
         class="google-font grey--text text--darken-2"
         style="text-decoration:none;font-size:110%"
-        >DevFest India</router-link
+        >DevFair India</router-link
       >
     </v-toolbar-title>
 
@@ -107,7 +107,7 @@ export default {
       if (navigator.share) {
         navigator
           .share({
-            title: "DevFest India India",
+            title: "DevFair India India",
             url: "https://devfestindia.com",
           })
           .then(() => {

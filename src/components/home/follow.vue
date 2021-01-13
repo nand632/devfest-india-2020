@@ -49,7 +49,7 @@
             rel="noreferrer"
             target="_blank"
             style="color:#0005DF;text-decoration:none"
-          >#DevFestIndia</a>
+          >#DevFairIndia</a>
           for the updates and news.
         </p>
       </v-col>

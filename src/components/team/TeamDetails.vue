@@ -11,7 +11,7 @@
         </v-avatar>
         <p class="mt-3 mb-0 google-font mb-0" style="font-size:110%">{{ data.name }}</p>
         <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">{{ data.company.name }}</p>
-        <socialMediaDetails :data="data.social" />
+        <socialMediaDetails :socaillinks="data.social" />
       </div>
     </template>
 
@@ -29,7 +29,7 @@
               <p class="google-font mt-1" style="font-size:100%">
                 {{ data.company.designation }}<span v-if="data.company.name">, {{ data.company.name }}</span>
               </p>
-              <socialMediaDetails class="pl-0 ml-0" :data="data.social" />
+              <socialMediaDetails class="pl-0 ml-0" :socaillinks="data.social" />
             </v-col>
             <v-col md="8" cols="12">
               <p
@@ -81,9 +81,9 @@ export default {
 </script>
 
 <style>
-/* .whiteThemeCard {
+.whiteThemeCard {
   background: white;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-} */
+}
 </style>
