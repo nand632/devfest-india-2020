@@ -1,9 +1,10 @@
 {
   "projects": {
     "default": "devfair2021-28483",
-    "staging": "devfair-fb74f",
+    "staging": "devfair-2cdbb",
     "development": "devfair-2cdbb",
     "Development": "devfair-2cdbb",
-    "Develpoment": "devfair-2cdbb"
+    "Develpoment": "devfair-2cdbb",
+    "Staging": "devfair-2cdbb"
   }
 }

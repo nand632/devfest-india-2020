@@ -7,7 +7,7 @@
           class="white"
           transition="fade-transition"
           style="width:90%;margin-left:auto;margin-right:auto"
-          :src="require('@/assets/img/Cover.jpeg')"
+          :src="require('@/assets/img/Devfair-hero.png')"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">
@@ -76,7 +76,7 @@
           class="white"
           transition="fade-transition"
           style="width:90%;margin-left:auto;margin-right:auto"
-          :src="require('@/assets/img/Cover.jpeg')"
+          :src="require('@/assets/img/Devfair-hero.png')"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">
