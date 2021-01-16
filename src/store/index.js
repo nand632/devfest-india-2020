@@ -44,7 +44,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: "Volunteers",
+        text: "Sponsers",
         to: "/volunteers",
         icon: 'mdi-account-switch',
         meta: {

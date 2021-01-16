@@ -18,7 +18,7 @@
             </v-row>
           </template>
         </v-img>
-        <p class="devfest-font mt-4 mb-3" style="font-size:120%">
+        <p class="google-font mt-4 mb-3" style="font-size:120%">
           <v-icon class="mb-1">mdi-calendar-text</v-icon>&nbsp;March 02-10,
           2021
           <span style="color:#0005DF">
@@ -87,7 +87,7 @@
             </v-row>
           </template>
         </v-img>
-        <p class="devfest-font mt-4 mb-3" style="font-size:120%">
+        <p class="google-font mt-4 mb-3" style="font-size:120%">
           <v-icon class="mb-1">mdi-calendar-text</v-icon>&nbsp;March 02-10,
           2021
           <br />

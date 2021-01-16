@@ -4,26 +4,26 @@
         <v-row justify="center" align="center" class="hidden-sm-and-down" >
             <v-col md="6" cols="3">
                 <div v-if="days > 0">
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ days | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:500%;color:#0005DF;">{{ days | twoDigits }}</p>
                     <p class="google-font mt-0">{{ days > 1 ? 'Days' : 'Day' }}</p>
                 </div>
             </v-col>
             <v-col md="6" cols="3">
                 <div>
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ hours | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:500%;color:#0005DF;">{{ hours | twoDigits }}</p>
                     <p class="text">{{ hours > 1 ? 'Hours' : 'Hour' }}</p>
                 </div>
             </v-col>
             
             <v-col md="6" cols="3">
                 <div>
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ minutes | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:500%;color:#0005DF;">{{ minutes | twoDigits }}</p>
                     <p class="text">{{ minutes > 1 ? 'Minutes' : 'Minute' }}</p>
                 </div>
             </v-col>
             <v-col md="6" cols="3">
                 <div>
-                    <p class="devfest-font mb-0" style="font-size:500%;color:#0005DF;">{{ seconds | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:500%;color:#0005DF;">{{ seconds | twoDigits }}</p>
                     <p class="text">{{ seconds > 1 ? 'Seconds' : 'Second' }}</p>
                 </div>
             </v-col>
@@ -33,26 +33,26 @@
         <v-row justify="center" align="center" class="hidden-md-and-up">
             <v-col md="6" cols="3">
                 <div v-if="days > 0">
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ days | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:250%;color:#0005DF;">{{ days | twoDigits }}</p>
                     <p class="google-font mt-0">{{ days > 1 ? 'Days' : 'Day' }}</p>
                 </div>
             </v-col>
             <v-col md="6" cols="3">
                 <div>
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ hours | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:250%;color:#0005DF;">{{ hours | twoDigits }}</p>
                     <p class="text">{{ hours > 1 ? 'Hours' : 'Hour' }}</p>
                 </div>
             </v-col>
             
             <v-col md="6" cols="3">
                 <div>
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ minutes | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:250%;color:#0005DF;">{{ minutes | twoDigits }}</p>
                     <p class="text">{{ minutes > 1 ? 'Minutes' : 'Minute' }}</p>
                 </div>
             </v-col>
             <v-col md="6" cols="3">
                 <div>
-                    <p class="devfest-font mb-0" style="font-size:250%;color:#0005DF;">{{ seconds | twoDigits }}</p>
+                    <p class="google-font mb-0" style="font-size:250%;color:#0005DF;">{{ seconds | twoDigits }}</p>
                     <p class="text">{{ seconds > 1 ? 'Seconds' : 'Second' }}</p>
                 </div>
             </v-col>
