@@ -28,7 +28,7 @@ export default new Vuex.Store({
       {
         text: "Speakers",
         to: "/speakers",
-        icon: 'mdi-account-switch',
+        icon: 'mdi-assistant',
         meta: {
           showToolbar: true,
           showBottomNav: true,
@@ -37,7 +37,7 @@ export default new Vuex.Store({
       {
         text: "Team",
         to: "/team",
-        icon: "mdi-account-multiple",
+        icon: "mdi-account-settings",
         meta: {
           showToolbar: true,
           showBottomNav: false,
@@ -45,8 +45,8 @@ export default new Vuex.Store({
       },
       {
         text: "Sponsers",
-        to: "/volunteers",
-        icon: 'mdi-account-switch',
+        to: "/sponsers",
+        icon: 'mdi-currency-usd',
         meta: {
           showToolbar: true,
           showBottomNav: false,
@@ -56,6 +56,15 @@ export default new Vuex.Store({
         text: "Register",
         to: "/registration",
         icon: "mdi-account-circle",
+        meta: {
+          showToolbar: true,
+          showBottomNav: true,
+        },
+      },
+      {
+        text: "Communities",
+        to: "/Communities",
+        icon: "mdi-account-switch",
         meta: {
           showToolbar: true,
           showBottomNav: true,

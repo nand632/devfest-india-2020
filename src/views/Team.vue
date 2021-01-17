@@ -27,19 +27,19 @@
       </v-row>
     </v-container>
 
-    <v-container fluid class="mb-5 pb-5">
-      <v-row justify="center" align="center" class="px-0">
+    <v-container fluid class="py-0 my-0">
+      <v-row justify="center" align="center" class="py-0 my-0">
         <!-- style="margin-top: -150px;" -->
-        <v-col md="10" lg="10" sm="11" cols="12">
+        <v-col md="12" lg="12" sm="12" cols="12" class="py-0 my-0">
           <v-container>
-            <v-row class>
+            <v-row class="py-0 my-0">
               <v-col
                 md="3"
-                lg="3"
-                xl="2"
+                lg="2"
+                
                 sm="4"
                 cols="6"
-                class="px-1"
+                class="pa-1 mb-0"
                 v-for="(item, index) in TeamData"
                 :key="index"
               >

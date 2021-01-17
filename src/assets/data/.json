@@ -1,22 +1,5 @@
 [
   {
-    "name": "Nand Patel",
-    "community": {
-      "name": "Parul University",
-      "designation": "Student"
-    },
-    "company": {
-      "name": "DevOps Engineer"
-      
-    },
-    "image": "Nand.jpg",
-    "bio": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil olores dolorum deleniti quos magnam? Molestiae quidem temporareprehenderit laudantium? Deleniti consequatur aperiam evenietvoluptates reiciendis. Debitis blanditiis cumque deleniti quas!",
-    "social": {
-      "twitter": "https://twitter.com/",
-      "linkedin": "https://www.linkedin.com/in/"
-    }
-  },
-  {
     "name": "Person Name",
     "community": {
       "name": "Community Name",

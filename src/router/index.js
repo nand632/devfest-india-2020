@@ -42,11 +42,11 @@ Vue.use(VueRouter)
     }
   },
   {
-    path: '/volunteers',
-    name: 'Volunteers',
-    component: () => import(/* webpackChunkName: "volunteers" */ '../views/Volunteers.vue'),
+    path: '/sponsers',
+    name: 'Sponsers',
+    component: () => import(/* webpackChunkName: "volunteers" */ '../views/Sponsers.vue'),
     meta: {
-      title: 'Volunteers | DevFair India',
+      title: 'Sponsers | DevFair India',
       color: 'white'
     }
   },
@@ -60,6 +60,15 @@ Vue.use(VueRouter)
     }
   },
   {
+    path: '/Communities',
+    name: 'Communities',
+    component: () => import(/* webpackChunkName: "registration" */ '../views/Communities.vue'),
+    meta: {
+      title: 'Communities | DevFair India',
+      color: 'white'
+    }
+  },
+  {
     path: '/speakers',
     name: 'Speakers',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue'),
@@ -68,6 +77,7 @@ Vue.use(VueRouter)
       color: 'white'
     }
   },
+  
   {
     path: '/faq',
     name: 'FAQ',
