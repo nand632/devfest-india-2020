@@ -17,11 +17,101 @@
                 target="_blank"
                 slot="activator"
               >
+                <v-icon>mdi-facebook</v-icon>
+              </v-btn>
+            </template>
+            <span>Facebook</span>
+          </v-tooltip>
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                x-large
+                v-on="on"
+                rel="noreferrer"
+                href="https://twitter.com/DevfestIndia"
+                target="_blank"
+                slot="activator"
+              >
                 <v-icon>mdi-twitter</v-icon>
               </v-btn>
             </template>
             <span>Twitter</span>
           </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                x-large
+                v-on="on"
+                rel="noreferrer"
+                href="https://twitter.com/DevfestIndia"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-instagram</v-icon>
+              </v-btn>
+            </template>
+            <span>Instagram</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                x-large
+                v-on="on"
+                rel="noreferrer"
+                href="https://twitter.com/DevfestIndia"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-github</v-icon>
+              </v-btn>
+            </template>
+            <span>GitHub</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                x-large
+                v-on="on"
+                rel="noreferrer"
+                href="https://twitter.com/DevfestIndia"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-linkedin</v-icon>
+              </v-btn>
+            </template>
+            <span>Linkedin</span>
+          </v-tooltip>
+
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <v-btn
+                text
+                icon
+                x-large
+                v-on="on"
+                rel="noreferrer"
+                href="https://twitter.com/DevfestIndia"
+                target="_blank"
+                slot="activator"
+              >
+                <v-icon>mdi-telegram</v-icon>
+              </v-btn>
+            </template>
+            <span>Telegram</span>
+          </v-tooltip>
+
 
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
@@ -40,6 +130,7 @@
             </template>
             <span>YouTube</span>
           </v-tooltip>
+
         </h1>
         <p class="google-font mb-2">
           Let's get connected so that we can reach out to each other via a simple notification.

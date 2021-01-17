@@ -41,15 +41,23 @@
           <featureEvents />
         </v-col>
       </v-row>
+      
       <!-- FeaturesEvents Ends -->
-
+      <v-row justify="center" align="center">
+        <v-col md="12" lg="10" xs="12" class="py-0">
+          <Partners />
+        </v-col>
+      </v-row>
 
       <!-- <v-row align="center" justify="center" class="">
         <v-col md="10" lg="9" sm="12" class="my-4">
           <Stats/>
         </v-col>
       </v-row> -->
-
+        <!-- Partners -->
+        
+      
+        <!-- Partners End  -->
 
       <!-- Follow Us -->
       
@@ -71,12 +79,15 @@ export default {
   name: "Home",
   components: {
     FollowUs: () => import("@/components/home/follow"),
+    Partners:()=>import('@/components/home/Partners'),
     HomeScreen: ()=> import('@/components/home/homescreen'),
     // Stats: ()=> import('@/components/home/Stats')
     featureEvents:()=>import('@/components/home/FeaturesEvents'),
     aboutHeader: () => import("@/components/home/AboutHeader"),
-    AboutCommunity:()=>import("@/components/home/AboutCommunity"),
+    AboutCommunity:()=>import("@/components/home/AboutCommunity"),    
     events:()=>import('@/components/home/Events'),
+    
+    
   },
   data:()=>({
     showFeatureEventStatus:false,

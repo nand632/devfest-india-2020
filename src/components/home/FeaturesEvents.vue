@@ -15,6 +15,7 @@
           style="font-size:95%"
         >Events are listed in reverse chronological order by date.</p>
       </v-col>
+      
       <!-- Card 1 -->
       <div id="app" class="pad">
       <v-card
@@ -31,11 +32,16 @@
           </v-list-item-title>
           <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
         </v-list-item-content>  
-        <v-list-item-avatar
-          tile
-          size="80"
-          color="grey"
-        ></v-list-item-avatar>
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/Web.svg')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
       </v-list-item>  
       <v-card-actions class="google-font">
         <v-btn
@@ -65,12 +71,18 @@
           </v-list-item-title>
           <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
         </v-list-item-content>  
-        <v-list-item-avatar
-          tile
-          size="80"
-          color="grey"
-        ></v-list-item-avatar>
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/ML.svg')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
       </v-list-item>  
+      
       <v-card-actions class="google-font">
         <v-btn
           color="blue"
@@ -99,11 +111,16 @@
           </v-list-item-title>
           <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
         </v-list-item-content>  
-        <v-list-item-avatar
-          tile
-          size="80"
-          color="grey"
-        ></v-list-item-avatar>
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/flutter.svg')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
       </v-list-item>  
       <v-card-actions class="google-font">
         <v-btn
@@ -132,11 +149,16 @@
           </v-list-item-title>
           <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
         </v-list-item-content>  
-        <v-list-item-avatar
-          tile
-          size="80"
-          color="grey"
-        ></v-list-item-avatar>
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/cloud.svg')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
       </v-list-item>  
       <v-card-actions class="google-font">
         <v-btn
@@ -165,11 +187,16 @@
           </v-list-item-title>
           <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
         </v-list-item-content>  
-        <v-list-item-avatar
-          tile
-          size="80"
-          color="grey"
-        ></v-list-item-avatar>
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/ARVR.png')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
       </v-list-item>  
       <v-card-actions class="google-font">
         <v-btn
@@ -198,11 +225,16 @@
           </v-list-item-title>
           <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
         </v-list-item-content>  
-        <v-list-item-avatar
-          tile
-          size="80"
-          color="grey"
-        ></v-list-item-avatar>
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/startup.png')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
       </v-list-item>  
       <v-card-actions class="google-font">
         <v-btn
@@ -216,6 +248,122 @@
 </div>
 <!-- Card 6 End  -->
 
+<!-- Card 7 -->
+      <div id="app" class="pad">
+      <v-card
+      class="mx-auto"
+      max-height="300"
+      max-width="344">
+      <v-list-item three-line>
+        <v-list-item-content>
+          <div class="google-font mb-4">
+            May 2
+          </div>
+          <v-list-item-title class="headline mb-1">
+            Startup
+          </v-list-item-title>
+          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
+        </v-list-item-content>  
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/startup.png')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
+      </v-list-item>  
+      <v-card-actions class="google-font">
+        <v-btn
+          color="blue"
+          text
+        >
+          See More
+        </v-btn>
+      </v-card-actions>
+    </v-card>  
+</div>
+<!-- Card 7 End  -->
+
+<!-- Card 8 -->
+      <div id="app" class="pad">
+      <v-card
+      class="mx-auto"
+      max-height="300"
+      max-width="344">
+      <v-list-item three-line>
+        <v-list-item-content>
+          <div class="google-font mb-4">
+            May 2
+          </div>
+          <v-list-item-title class="headline mb-1">
+            Startup
+          </v-list-item-title>
+          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
+        </v-list-item-content>  
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/startup.png')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
+      </v-list-item>  
+      <v-card-actions class="google-font">
+        <v-btn
+          color="blue"
+          text
+        >
+          See More
+        </v-btn>
+      </v-card-actions>
+    </v-card>  
+</div>
+<!-- Card 8 End  -->
+<!-- Card 9 -->
+      <div id="app" class="pad">
+      <v-card
+      class="mx-auto"
+      max-height="300"
+      max-width="344">
+      <v-list-item three-line>
+        <v-list-item-content>
+          <div class="google-font mb-4">
+            May 2
+          </div>
+          <v-list-item-title class="headline mb-1">
+            Startup
+          </v-list-item-title>
+          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
+        </v-list-item-content>  
+        <v-avatar
+        size="80"
+        >
+        <img
+            :src="require('@/assets/img/explore/startup.png')"                    
+            class="mb"
+            height="100%"
+            width="150%"                    
+        >
+      </v-avatar>
+      </v-list-item>  
+      <v-card-actions class="google-font">
+        <v-btn
+          color="blue"
+          text
+        >
+          See More
+        </v-btn>
+      </v-card-actions>
+    </v-card>  
+</div>
+<!-- Card 9 End  -->
+
     </v-row>
   </v-container>
 </template>
@@ -224,20 +372,8 @@
 
 </script>
 
-<style scoped>
-.vcard {
-  background-color: #ffff;
-  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+<style>
 
-  border-radius: 8px;
-}
-.vcard {
-  background-color: #292929;
-  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
-  /* border:1px solid #212121; */
-  border: 1px solid #424242;
-  border-radius: 10px;
-}
 .pad{
   padding: 5px;
 }
