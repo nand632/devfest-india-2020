@@ -1,375 +1,56 @@
 <template>
   <v-container fluid class="mb-1">
     <v-row align="center" justify="center" class>
-      <v-col cols="12" md="12" lg="12" sm="12" class="mb-0">
+      <v-col cols="12" md="12" lg="12" sm="12" class="text-center mb-0">
         <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
           <b>
             Our
-            <span style="color: #1a73e8;">Feature Event</span>
+            <span style="color: #3766FC;">Feature Event</span>
             &
-            <span style="color: #1a73e8;">Meetup</span>
+            <span style="color: #3766FC;">Meetup</span>
           </b>
         </p>
         <p
           class="google-font mt-0 mb-0"
           style="font-size:95%"
-        >Events are listed in reverse chronological order by date.</p>
+        >Events are listed in reverse chronological order by date.Events are listed in reverse chronological order by date.Events are listed in reverse chronological order by date.</p>
       </v-col>
-      
-      <!-- Card 1 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2, DevFair2021
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Web
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/Web.svg')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 1 End  -->
-
-<!-- Card 2 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2, DevFair2021
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Machine Learning
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/ML.svg')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 2 End  -->
-
-<!-- Card 3  -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2, DevFair2021
-          </div>
-          <v-list-item-title class="headline mb-1">
-           Flutter
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/flutter.svg')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 3 End  -->
-<!-- Card 4 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2, DevFair2021
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Cloud
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/cloud.svg')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 4 End  -->
-<!-- Card 5 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2, DevFair2021
-          </div>
-          <v-list-item-title class="headline mb-1">
-            AR VR
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/ARVR.png')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 5 End  -->
-<!-- Card 6 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Startup
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/startup.png')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 6 End  -->
-
-<!-- Card 7 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Startup
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/startup.png')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 7 End  -->
-
-<!-- Card 8 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Startup
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/startup.png')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 8 End  -->
-<!-- Card 9 -->
-      <div id="app" class="pad">
-      <v-card
-      class="mx-auto"
-      max-height="300"
-      max-width="344">
-      <v-list-item three-line>
-        <v-list-item-content>
-          <div class="google-font mb-4">
-            May 2
-          </div>
-          <v-list-item-title class="headline mb-1">
-            Startup
-          </v-list-item-title>
-          <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-        </v-list-item-content>  
-        <v-avatar
-        size="80"
-        >
-        <img
-            :src="require('@/assets/img/explore/startup.png')"                    
-            class="mb"
-            height="100%"
-            width="150%"                    
-        >
-      </v-avatar>
-      </v-list-item>  
-      <v-card-actions class="google-font">
-        <v-btn
-          color="blue"
-          text
-        >
-          See More
-        </v-btn>
-      </v-card-actions>
-    </v-card>  
-</div>
-<!-- Card 9 End  -->
+      <v-container>
+        <v-row align="center" justify="center" class>
+          <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
+            <b>
+              <span style="color: #3766FC;">WorkShop</span>
+            </b>
+          </p>
+              <v-row class="py-0 my-0">
+                <v-col md="3" lg="2" sm="4" cols="6" class="pa-1 mb-0 " v-for="(item, index) in TeamData"
+                  :key="index"
+                >
+                  <TeamMember :data="item" />
+                </v-col>
+              </v-row>
+        </v-row>
+      </v-container>
 
     </v-row>
   </v-container>
 </template>
 
 <script>
-
+import TeamMember from "@/components/team/Featureevent";
+import TeamData from "@/assets/data/Featureevent.json";
+export default {
+  name: "TeamPage",
+  components: {
+    TeamMember,
+  },
+  data: () => ({
+    TeamData: [],
+  }),
+  mounted() {
+    this.TeamData = this.sortByName(TeamData);
+  },
+};
 </script>
 
 <style>

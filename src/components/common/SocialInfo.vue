@@ -25,6 +25,17 @@
         >
           <v-icon small color="#0077b5">mdi-linkedin</v-icon>
         </v-btn>
+        <v-btn
+          aria-label="social media btn"
+          small
+          class="mt-0 mx-0"
+          icon
+          v-if="checkExistance(socaillinks.linkedin,0)"
+          :href="socaillinks.link"
+          target="_blank"
+        >
+          <v-icon small color="#0077b5">mdi-link-variant</v-icon>
+        </v-btn>
         
       </v-col>
     </v-row>

@@ -12,8 +12,8 @@
         <v-col md="7" sm="8" lg="5" cols="12">
           <div style="padding:10px;">
             <h2 class="google-font">
-              <span style="font-size:120%">DevFair India </span>:
-              <span style="color:#0005DF">Registration</span>
+              <span style="font-size:100%">DevFair India </span>:
+              <span style="color:#3766FC">Registration</span>
             </h2>
             <p class="google-font">
               India's biggest developer conclave with 40+ GDG
@@ -22,7 +22,7 @@
             </p>
             <p class="google-font">
               The mega event is set to happen on
-              <b>Mar 02<sup>th</sup> to 10<sup>th</sup>, 2021</b> with the
+              <b style="color:#3766FC">Mar 02<sup>th</sup> to 10<sup>th</sup>, 2021</b> with the
               line-up of expert speakers, multiple tracks, fun engagements and many more.
             </p>
           </div>
@@ -51,7 +51,7 @@
                     depressed
                     style="text-transform: capitalize"
                     
-                    dark color="#0005DF"
+                    dark color="#3766FC"
                   >
                     <v-icon size="20px"></v-icon>Register Here
                   </v-btn>

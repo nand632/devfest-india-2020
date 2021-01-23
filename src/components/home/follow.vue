@@ -2,15 +2,27 @@
   <v-container fluid class="mb-0">
     <v-row justify="center" align="center">
       <v-col>
-        <h1 class="google-font" style="color:#0005DF;">
-          Follow Us
+        <h2 class="google-font" style="font-size: 3.5vh; line-height: 1.22; font-weight: 500;">
+          Keep in touch with <b style="color:#3766FC;"> DevFair India</b> for the latest announcements</h2>
           <small class="mr-5 ml-1">-</small>
+          <p class="google-font mb-2" style="font-size: 2vh;">
+          Let's get connected so that we can reach out to each other via a simple notification.
+          <br />
+          Stake out
+          <a
+            href="https://twitter.com/DevFestIndia"
+            rel="noreferrer"
+            target="_blank"
+            style="color:#3766FC;text-decoration:none"
+          >#DevFairIndia</a>
+          for the updates and news.
+        </p>
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://twitter.com/DevfestIndia"
@@ -27,7 +39,7 @@
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://twitter.com/DevfestIndia"
@@ -45,7 +57,7 @@
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://twitter.com/DevfestIndia"
@@ -63,7 +75,7 @@
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://twitter.com/DevfestIndia"
@@ -81,7 +93,7 @@
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://twitter.com/DevfestIndia"
@@ -99,7 +111,7 @@
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://twitter.com/DevfestIndia"
@@ -118,7 +130,7 @@
               <v-btn
                 text
                 icon
-                x-large
+                x
                 v-on="on"
                 rel="noreferrer"
                 href="https://www.youtube.com/channel/UCJsZoFDt7rfxPBI1esak8JQ/"
@@ -131,18 +143,8 @@
             <span>YouTube</span>
           </v-tooltip>
 
-        </h1>
-        <p class="google-font mb-2">
-          Let's get connected so that we can reach out to each other via a simple notification.
-          <br />Stake out
-          <a
-            href="https://twitter.com/DevFestIndia"
-            rel="noreferrer"
-            target="_blank"
-            style="color:#0005DF;text-decoration:none"
-          >#DevFairIndia</a>
-          for the updates and news.
-        </p>
+        
+        
       </v-col>
     </v-row>
   </v-container>

@@ -11,7 +11,7 @@
           <v-container fluid>
                 <v-row v-for="(coc,i) in faqData" :key="i">
                     <v-col md="6">
-                        <p style="color:#0005DF;font-size:120%" class="google-font mb-2">{{coc.question}}</p>
+                        <p style="color:#3766FC;font-size:120%" class="google-font mb-2">{{coc.question}}</p>
                         <p>{{coc.answer}}</p>
                     </v-col>
                 </v-row>

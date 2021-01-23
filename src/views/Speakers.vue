@@ -10,7 +10,7 @@
           <v-container>
             <v-row  class="">
               <v-col class="pb-5">
-                <h1 class="google-font mb-0" style="font-size:180%;color:#0005DF">Check out our speaker lineup</h1>
+                <h1 class="google-font mb-0" style="font-size:180%;color:#3766FC">Check out our speaker lineup</h1>
                 <p class="google-font" style="width:100%;margin-top:20px;font-size:100%">Whatever your challenge, see how these leaders on the front line of transformation, innovation, and exploration can help solve it with you. Get to know the inspiring minds right here.</p>
               </v-col>
             </v-row>
@@ -75,7 +75,7 @@ export default {
 </script>
 
 <style scoped>
-.white-border{
+/* .white-border{
   border-bottom: 1px solid #e0e0e0 !important;
-}
+} */
 </style>

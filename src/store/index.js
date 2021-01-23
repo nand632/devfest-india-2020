@@ -52,19 +52,20 @@ export default new Vuex.Store({
           showBottomNav: false,
         },
       },
-      {
-        text: "Register",
-        to: "/registration",
-        icon: "mdi-account-circle",
-        meta: {
-          showToolbar: true,
-          showBottomNav: true,
-        },
-      },
+      
       {
         text: "Communities",
         to: "/Communities",
         icon: "mdi-account-switch",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
+      {
+        text: "Register",
+        to: "/registration",
+        icon: "mdi-account-circle",
         meta: {
           showToolbar: true,
           showBottomNav: true,

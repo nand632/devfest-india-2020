@@ -19,7 +19,7 @@
         :href="link.href"
         @click="onClick($event, link)"
         class="google-font my-0 py-0"
-        color="#0005DF"
+        color="#3766FC"
       >
         <v-list-item-icon>
           <v-icon v-text="link.icon"></v-icon>

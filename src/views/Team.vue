@@ -8,7 +8,7 @@
           <v-container>
             <v-row class>
               <v-col class="pb-5">
-                <h1 class="google-font mb-5" style="color:#0005DF">
+                <h1 class="google-font mb-5" style="color:#3766FC">
                   Our Team
                 </h1>
                 <p class="google-font">

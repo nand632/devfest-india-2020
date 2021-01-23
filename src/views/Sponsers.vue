@@ -5,7 +5,7 @@
     >
       <v-row justify="start" align="center" class="mt-5">
         <v-col md="8" offset-md="1" offset-lg="1" lg="8" sm="11" cols="12">
-            <h1 class="google-font mb-5" style="color:#0005DF">
+            <h1 class="google-font mb-5" style="color:#3766FC">
                 Our Sponsers
             </h1>
             <p class="google-font">
@@ -27,7 +27,6 @@
               <v-col
                 md="3"
                 lg="2"
-                
                 sm="4"
                 cols="6"
                 class="pa-1 mb-0"
@@ -73,7 +72,7 @@
 
 <script>
 import TeamMember from "@/components/team/TeamDetails";
-import TeamData from "@/assets/data/volunteers.json";
+import TeamData from "@/assets/data/sponser.json";
 import TeamData1 from "@/assets/data/sponser1.json";
 export default {
   name: "TeamPage",
@@ -90,3 +89,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.partner-image {
+    width: auto !important;
+    border-radius: 0 !important;
+    max-width: 254px;
+}
+.partner-image img {
+    max-height: 60px;
+}
+</style>

@@ -14,7 +14,7 @@
           :class="$vuetify.theme.dark==true?'grey darken-4':'white'">
             <v-toolbar-title
               class="google-font my-5"
-              style="font-weight: 900;font-size:180%;color:#0005DF"
+              style="font-weight: 900;font-size:180%;color:#3766FC"
               >Schedules
             </v-toolbar-title>
             <template v-slot:extension>
@@ -31,8 +31,8 @@
                 v-model="model"
                 :grow="getMobileTab()"
                 :centered="getMobileTab()"
-                color="#0005DF"
-                slider-color="#0005DF"
+                color="#3766FC"
+                slider-color="#3766FC"
               >
                 <v-tab href="#day1">
                   March 2
@@ -79,7 +79,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Performance & Developer Tools</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Performance & Developer Tools</h3>
                     <p class="google-font" style="text-align:justify;">
                       Runtime performance is how your page performs when it is running, as opposed to loading. Users expect pages to be interactive and smooth. Each stage in the pixel pipeline represents an opportunity to introduce jank. Learn about tools and strategies to identify and fix common problems that slow down runtime performance.
                     </p>
@@ -94,7 +94,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Front-end & AMP</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Front-end & AMP</h3>
                     <p class="google-font" style="text-align:justify;">
                       AMP is an open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else. Can't believe it? Try it out.
                     </p>
@@ -109,7 +109,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">PWA & FUGU</h3>
+                    <h3 class="google-font" style="color:#3766FC;">PWA & FUGU</h3>
                     <p class="google-font" style="text-align:justify;">
                      Progressive Web Apps are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications.
                      <br>
@@ -126,7 +126,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Privacy & UX</h3>
                     <p class="google-font" style="text-align:justify;">
                       Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
                       Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
@@ -142,7 +142,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Privacy & UX</h3>
                     <p class="google-font" style="text-align:justify;">
                       Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
                       Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
@@ -159,7 +159,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Privacy & UX</h3>
                     <p class="google-font" style="text-align:justify;">
                       Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
                       Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
@@ -176,7 +176,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Privacy & UX</h3>
                     <p class="google-font" style="text-align:justify;">
                       Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
                       Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
@@ -193,7 +193,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Privacy & UX</h3>
                     <p class="google-font" style="text-align:justify;">
                       Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
                       Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.
@@ -210,7 +210,7 @@
               <v-container>
                 <v-row>
                   <v-col>
-                    <h3 class="google-font">Privacy & UX</h3>
+                    <h3 class="google-font" style="color:#3766FC;">Privacy & UX</h3>
                     <p class="google-font" style="text-align:justify;">
                       Taking best practices from the field of user experience and human-centered design and applying them to data collection and privacy interactions. <br>
                       Once you start looking for ways to optimize your opt-ins or reduce the bounce rates that have increased due to your consent experience, you’re already starting to think of the Privacy UX.

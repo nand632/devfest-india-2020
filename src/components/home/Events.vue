@@ -5,14 +5,14 @@
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
                         Our
-                        <span style="color: #1a73e8;">Events</span> 
+                        <span style="color: #3766FC;">Event Roadmap</span> 
                         &
-                        <span style="color: #1a73e8;">Meetups</span> 
+                        <span style="color: #3766FC;">Schedule</span> 
                     </b> 
                 </p>
                 
                 <!-- <p class="google-font mb-0" style="font-size:180%">Our Events & Meetups</p> -->
-                <p class="google-font mt-0" style="font-size:95%">At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.</p>
+                <p class="google-font mt-0" style="font-size:95%">Follow code inductions by our expert speakers on cutting edge technologies & Startup Innovation. Check out the schedule page and don't neglect to mark your calendar so that you don't miss out on any sessions. Don't forget to be a part of the Devfair Hackathon on 8th - 10th March.</p>
                 <router-link
                     to="/schedule"
                     text

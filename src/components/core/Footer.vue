@@ -21,13 +21,9 @@
                 <v-icon>mdi-chevron-up</v-icon>
               </v-btn>
             </v-fab-transition> -->
-            <h1
+            <h1 
               class="google-font"
-              :class="
-                $vuetify.theme.dark == true
-                  ? 'white--text'
-                  : 'grey--text text--darken-2'
-              "
+              style="color:#3766FC"
             >DevFair India</h1>
           </v-card-text>
         </v-col>

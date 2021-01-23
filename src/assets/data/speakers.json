@@ -1,7 +1,7 @@
 [
     {
         "id": "101",
-        "name":"Nand Patel",
+        "name":"Speaker Name",
         "company": {
             "name":"Company Name",
             "designation": "Founder & CEO"
@@ -12,8 +12,9 @@
             402
         ],
         "social": {
+            "linkedin": "https://linkedin.com/in",
             "twitter": "https://twitter.com/",
-            "linkedin": "https://www.linkedin.com/in"
+            "link":"https://www.facebook.com/"
         }
     },
     {
@@ -26,8 +27,9 @@
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
+            "linkedin": "https://linkedin.com/in",
             "twitter": "https://twitter.com/",
-            "linkedin": "https://www.linkedin.com/in"
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             202
@@ -43,8 +45,9 @@
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
+            "linkedin": "https://linkedin.com/in",
             "twitter": "https://twitter.com/",
-            "linkedin": "https://www.linkedin.com/in"
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             301
@@ -60,8 +63,9 @@
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
-            "linkedin": "https://www.linkedin.com/in",
-            "twitter": "https://twitter.com/"
+            "linkedin": "https://linkedin.com/in",
+            "twitter": "https://twitter.com/",
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             203
@@ -77,8 +81,9 @@
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
-            "linkedin": "",
-            "twitter": "https://twitter.com/"
+            "linkedin": "https://linkedin.com/in",
+            "twitter": "https://twitter.com/",
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             103
@@ -94,8 +99,9 @@
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
-            "linkedin": "",
-            "twitter": "https://twitter.com/"
+            "linkedin": "https://linkedin.com/in",
+            "twitter": "https://twitter.com/",
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             401
@@ -105,14 +111,15 @@
         "id": "109",
         "name":"Speaker Name",
         "company": {
-            "designation": "Sr. Software Engineer",
+            "designation": "Designation",
             "name":"Company Name"
         },
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
             "linkedin": "https://linkedin.com/in",
-            "twitter": "https://twitter.com/"
+            "twitter": "https://twitter.com/",
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             102
@@ -128,8 +135,9 @@
         "image": "",
         "bio": "Speaker's Bio",
         "social": {
-            "linkedin": "",
-            "twitter": "https://twitter.com/"
+            "linkedin": "https://linkedin.com/in",
+            "twitter": "https://twitter.com/",
+            "link":"https://www.facebook.com/"
         },
         "sessionId": [
             204

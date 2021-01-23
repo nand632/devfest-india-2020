@@ -9,13 +9,13 @@
             <v-container>
                 <v-row v-for="(coc,i) in cocData.coc" :key="i">
                     <v-col md="6">
-                        <p style="color:#0005DF;font-size:120%" class="google-font mb-2">{{coc.name}}</p>
+                        <p style="color:#3766FC;font-size:120%" class="google-font mb-2">{{coc.name}}</p>
                         <p>{{coc.des}}</p>
                     </v-col>
                 </v-row>
                 <v-row>
                     <v-col>
-                        <p class="google-font" style="font-size:120%">If you witness any attendee breaching the code of conduct, please reach out to us at <b>devfestindia@gmail.com</b>.</p>
+                        <p class="google-font" style="font-size:120%">If you witness any attendee breaching the code of conduct, please reach out to us at <b style="color:#3766FC">devfairindia@gmail.com</b>.</p>
                     </v-col>
                 </v-row>
             </v-container>

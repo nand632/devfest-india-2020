@@ -42,7 +42,21 @@
         </v-col>
       </v-row>
       
+      <!-- FeaturesEvents Ends --><!-- FeatureEvents -->
+        <v-row justify="center" align="center" class="py-5" :class="this.$vuetify.theme.dark == true?'grey darken-4':'grey lighten-4'">
+        <v-col md="12" sm="11" lg="10" xs="12" class="py-0">
+          <Hackathon />
+        </v-col>
+      </v-row>
+      
       <!-- FeaturesEvents Ends -->
+
+      <v-row justify="center" align="center">
+        <v-col md="12" lg="10" xs="12" class="py-0">
+          <Count />
+        </v-col>
+      </v-row>
+
       <v-row justify="center" align="center">
         <v-col md="12" lg="10" xs="12" class="py-0">
           <Partners />
@@ -83,9 +97,11 @@ export default {
     HomeScreen: ()=> import('@/components/home/homescreen'),
     // Stats: ()=> import('@/components/home/Stats')
     featureEvents:()=>import('@/components/home/FeaturesEvents'),
+    Hackathon:()=>import('@/components/home/Hackathon'),
     aboutHeader: () => import("@/components/home/AboutHeader"),
     AboutCommunity:()=>import("@/components/home/AboutCommunity"),    
     events:()=>import('@/components/home/Events'),
+    Count:()=>import('@/components/home/Count'),
     
     
   },
