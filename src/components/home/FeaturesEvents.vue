@@ -17,7 +17,7 @@
       </v-col>
       <v-container>
         <v-row align="center" justify="center" class>
-          <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
+          <p class="google-font mb-0 mt-0 hackathon-head-line" style="font-weight: 350;font-size:180%">
             <b>
               <span style="color: #3766FC;">WorkShop</span>
             </b>

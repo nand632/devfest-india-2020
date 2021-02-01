@@ -85,10 +85,10 @@ export default {
   border-radius: 8px;
 }
 .cards-imgs {
-    height: 57px !important;
-    width: 57px !important;
+    height: 45px !important;
+    width: 45px !important;
     
-    transform: translateX(-50px);
+    transform: translateX(-65px);
 }
 .cards-main-head {
     text-align: left;
@@ -105,5 +105,7 @@ export default {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     height: 90% !important;
+    border-radius: 4px !important;
 }
+
 </style>

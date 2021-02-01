@@ -2,7 +2,7 @@
     <v-container fluid class="">
         <v-row align="center" justify="center">
                 <div class="row">
-                    <div class="text-center col-md-3 col-6">
+                    <div class="text-center col-md-3 col-6 counter-box-small">
                         <p class="google-font mb-0" style="color:#3766FC; font-size: 300%;">
                             40+
                         </p>
@@ -10,7 +10,7 @@
                             Communities
                         </p>
                     </div>
-                    <div class="text-center col-md-3 col-6">
+                    <div class="text-center col-md-3 col-6 counter-box-small">
                         <p class="google-font mb-0" style="color:#3766FC; font-size: 300%;">
                             05
                         </p>
@@ -18,7 +18,7 @@
                             Track
                         </p>
                     </div>
-                    <div class="text-center col-md-3 col-6">
+                    <div class="text-center col-md-3 col-6 counter-box-small">
                         <p class="google-font mb-0" style="color:#3766FC; font-size: 300%;">
                             30
                         </p>
@@ -26,7 +26,7 @@
                             Expect
                         </p>
                     </div>
-                    <div class="text-center col-md-3 col-6">
+                    <div class="text-center col-md-3 col-6 counter-box-small">
                         <p class="google-font mb-0" style="color:#3766FC; font-size: 300%;">
                             15+
                         </p>
@@ -34,7 +34,7 @@
                             Exculsive Sessions
                         </p>
                     </div>
-                    <div class="text-center col-md-3 col-6">
+                    <div class="text-center col-md-3 col-6 counter-box-small">
                         <p class="google-font mb-0" style="color:#3766FC; font-size: 300%;">
                             10+
                         </p>
@@ -42,7 +42,7 @@
                             Live Activity
                         </p>
                     </div>
-                    <div class="text-center col-md-3 col-6">
+                    <div class="text-center col-md-3 col-6 counter-box-small">
                         <p class="google-font mb-0" style="color:#3766FC; font-size: 300%;">
                             09
                         </p>
@@ -81,5 +81,12 @@ import { mapState } from 'vuex'
 </script>
 
 <style scoped>
-   
+
+@media (min-width: 960px) {
+    .counter-box-small {
+    max-width: 16.5% !important;
+}
+}
+
+
 </style>

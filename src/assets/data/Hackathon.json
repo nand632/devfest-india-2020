@@ -1,87 +1,86 @@
-[
-  {
-    "name": "Open Innovation",
-    "community": {
-      "name": "Open Innovation",
-      "designation": "Hackathon"
+[{
+        "name": "Open Innovation",
+        "community": {
+            "name": "Open Innovation",
+            "designation": "Hackathon"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "Open.png",
+        "bio1": "Get all the Technology ideas in the tertiary areas. Source tomorrow’s...",
+        "bio": "Get extreme with all the Technology ideas in the tertiary areas. Source tomorrow’s technologies & uses. Collaborate with the best startups, mentors to Implement innovative solutions."
     },
-    "company": {
-      "name": "",
-      "designation": ""
+    {
+        "name": "HealthTech",
+        "community": {
+            "name": "HealthTech",
+            "designation": "Hackathon"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "health.png",
+        "bio1": "This track refers to create + support ICT solutions that positively...",
+        "bio": "This track refers to create + support ICT solutions that positively enhance our lives, has never been stronger with inter-disciplinary crew learning of health, business, design, and tech skills."
     },
-    "image": "Open.png",
-    "bio1": "Get all the Technology ideas in the tertiary areas.",
-    "bio": "Get extreme with all the Technology ideas in the tertiary areas. Source tomorrow’s technologies & uses. Collaborate with the best startups, mentors to Implement innovative solutions."
-  },
-  {
-    "name": "HealthTech",
-    "community": {
-      "name": "HealthTech",
-      "designation": "Hackathon"
+    {
+        "name": "Blockchain",
+        "community": {
+            "name": "Blockchain",
+            "designation": "Hackathon"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "blockchain.png",
+        "bio1": "Deploy a blockchain, build/deploy amazing smart deals build the right...",
+        "bio": "Deploy a blockchain, build/deploy amazing smart deals, build the right interfaces and integrations, and reasonably even come up with that next unique business model that reconstructs the world in a better way."
     },
-    "company": {
-      "name": "",
-      "designation": ""
+    {
+        "name": "FinTech",
+        "community": {
+            "name": "FinTech",
+            "designation": "Hackathon"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "Fintech.png",
+        "bio1": "FinTech developers and designers to develop financial products and...",
+        "bio": "FinTech developers and designers to develop financial products and discover new technologies. Example applications include innovations in trading, personal finance, retail banking and enterprise social."
     },
-    "image": "health.png",
-    "bio1": "This track refers to create + support ICT solutions",
-    "bio": "This track refers to create + support ICT solutions that positively enhance our lives, has never been stronger with inter-disciplinary crew learning of health, business, design, and tech skills."
-  },
-  {
-    "name": "Blockchain",
-    "community": {
-      "name": "Blockchain",
-      "designation": "Hackathon"
+    {
+        "name": "AI",
+        "community": {
+            "name": "Artificial Intelligence",
+            "designation": "Hackathon"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "ai.png",
+        "bio1": "If you are an innovator with a passion for AI, The need for more...",
+        "bio": "If you are an innovator with a passion for AI, The need for more personalized machine interactions in every sphere of technology has led to the invention of many new hacks in the domain."
     },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "blockchain.png",
-    "bio1": "Deploy a blockchain, build/deploy amazing smart deals",
-    "bio": "Deploy a blockchain, build/deploy amazing smart deals, build the right interfaces and integrations, and reasonably even come up with that next unique business model that reconstructs the world in a better way."
-  },
-  {
-    "name": "FinTech",
-    "community": {
-      "name": "FinTech",
-      "designation": "Hackathon"
-    },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "Fintech.png",
-    "bio1": "FinTech developers and designers to develop financial products",
-    "bio": "FinTech developers and designers to develop financial products and discover new technologies. Example applications include innovations in trading, personal finance, retail banking and enterprise social."
-  },
-  {
-    "name": "AI",
-    "community": {
-      "name": "Artificial Intelligence",
-      "designation": "Hackathon"
-    },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "ai.png",
-    "bio1": "If you are an innovator with a passion for AI",
-    "bio": "If you are an innovator with a passion for AI, The need for more personalized machine interactions in every sphere of technology has led to the invention of many new hacks in the domain."
-  },
-  
-  {
-    "name": "Education",
-    "community": {
-      "name": "Education",
-      "designation": "Hackathon"
-    },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "education.png",
-    "bio1": "A track for coders to formulate a more captivating atmosphere",
-    "bio": "A track for coders to formulate a more captivating atmosphere where learners can demonstrate and collude with others to share their learnings and obtain unique ways to overtake the ideas."
-  }
+
+    {
+        "name": "Education",
+        "community": {
+            "name": "Education",
+            "designation": "Hackathon"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "education.png",
+        "bio1": "A track for coders to formulate a more captivating atmosphere where...",
+        "bio": "A track for coders to formulate a more captivating atmosphere where learners can demonstrate and collude with others to share their learnings and obtain unique ways to overtake the ideas."
+    }
 ]

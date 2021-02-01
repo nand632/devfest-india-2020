@@ -1,87 +1,86 @@
-[
-  {
-    "name": "Web",
-    "community": {
-      "name": "Web",
-      "designation": "WorkShop"
+[{
+        "name": "Web",
+        "community": {
+            "name": "Web",
+            "designation": "WorkShop"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "Web.svg",
+        "bio1": "Web Dev has 3 pathways to becoming a web developer  with 3 pathways...",
+        "bio": "Learn why web development is a thriving industry with 3 pathways to becoming a web developer, learn with live project, Debunking the biggest fears and misconceptions & build a freelance business."
     },
-    "company": {
-      "name": "",
-      "designation": ""
+    {
+        "name": "AR VR",
+        "community": {
+            "name": "AR VR",
+            "designation": "WorkShop"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "ARVR.png",
+        "bio1": "Computer Vision plays a fundamental role in AR/VR systems to see...",
+        "bio": "Computer Vision plays a fundamental role in AR/VR systems to see, analyze and understand the world.The aim of this workshop is to bring industry innovators and academic leaders in the AR/VR world to discuss the problems, applications and in general the state of the AR/VR systems."
     },
-    "image": "Web.svg",
-    "bio1": "Web Dev has 3 pathways to becoming a web developer",
-    "bio": "Learn why web development is a thriving industry with 3 pathways to becoming a web developer, learn with live project, Debunking the biggest fears and misconceptions & build a freelance business."
-  },
-  {
-    "name": "AR VR",
-    "community": {
-      "name": "AR VR",
-      "designation": "WorkShop"
+    {
+        "name": "Cloud",
+        "community": {
+            "name": "Cloud",
+            "designation": "WorkShop"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "cloud.svg",
+        "bio1": "Conference on Cloud Tech 2021. Learn Infrastructure of the cloud...",
+        "bio": "Conference on Cloud Tech 2021. Learn Components and Infrastructure of the cloud, Assessing Security Risks, Tracking Cryptocurrency Exchange Trades with GCP in real time"
     },
-    "company": {
-      "name": "",
-      "designation": ""
+    {
+        "name": "Flutter",
+        "community": {
+            "name": "Flutter",
+            "designation": "WorkShop"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "flutter.svg",
+        "bio1": "Let's build our first app together! Learn how declarative UI works...",
+        "bio": "Let's build our first app together! Learn how declarative UI works and when to use StatefulWidgets. Understand the fundamentals of dart packages. Deep dive into unit testing with Flutter."
     },
-    "image": "ARVR.png",
-    "bio1": "Computer Vision plays a fundamental role in AR/VR",
-    "bio": "Computer Vision plays a fundamental role in AR/VR systems to see, analyze and understand the world.The aim of this workshop is to bring industry innovators and academic leaders in the AR/VR world to discuss the problems, applications and in general the state of the AR/VR systems."
-  },
-  {
-    "name": "Cloud",
-    "community": {
-      "name": "Cloud",
-      "designation": "WorkShop"
+    {
+        "name": "ML",
+        "community": {
+            "name": "Machine Learning",
+            "designation": "WorkShop"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "ML.svg",
+        "bio1": "Learn Gradient Descent Algorithm, Data Processing Roadmap to become a...",
+        "bio": "Learn Gradient Descent Algorithm, Hyper parameters Grid Search, Data Processing, Classification Problems, Accuracy Prediction and Optimization & Roadmap to become a ML Engineer in 2021."
     },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "cloud.svg",
-    "bio1": "Conference on Cloud Tech 2021. Learn Infrastructure of the cloud",
-    "bio": "Conference on Cloud Tech 2021. Learn Components and Infrastructure of the cloud, Assessing Security Risks, Tracking Cryptocurrency Exchange Trades with GCP in real time"
-  },
-  {
-    "name": "Flutter",
-    "community": {
-      "name": "Flutter",
-      "designation": "WorkShop"
-    },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "flutter.svg",
-    "bio1": "Let's build our first app together! Learn how declarative UI works",
-    "bio": "Let's build our first app together! Learn how declarative UI works and when to use StatefulWidgets. Understand the fundamentals of dart packages. Deep dive into unit testing with Flutter."
-  },
-  {
-    "name": "ML",
-    "community": {
-      "name": "Machine Learning",
-      "designation": "WorkShop"
-    },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "ML.svg",
-    "bio1": "Learn Gradient Descent Algorithm, Data Processing",
-    "bio": "Learn Gradient Descent Algorithm, Hyper parameters Grid Search, Data Processing, Classification Problems, Accuracy Prediction and Optimization & Roadmap to become a ML Engineer in 2021."
-  },
-  
-  {
-    "name": "Startup",
-    "community": {
-      "name": "Startup",
-      "designation": "WorkShop"
-    },
-    "company": {
-      "name": "",
-      "designation": ""
-    },
-    "image": "startup.png",
-    "bio1": "Startup Talk India’s Startup Podcast is ON AIR!",
-    "bio": "Startup Talk India’s Startup Podcast is ON AIR! Sharing India’s startup stories. Celebrating the successes and failures in India’s startup ecosystem. We are talking to entrepreneurs, founders, innovators & leaders in India."
-  }
+
+    {
+        "name": "Startup",
+        "community": {
+            "name": "Startup",
+            "designation": "WorkShop"
+        },
+        "company": {
+            "name": "",
+            "designation": ""
+        },
+        "image": "startup.png",
+        "bio1": "Startup Talk India’s Startup Podcast is ON AIR! Sharing India’s startup...",
+        "bio": "Startup Talk India’s Startup Podcast is ON AIR! Sharing India’s startup stories. Celebrating the successes and failures in India’s startup ecosystem. We are talking to entrepreneurs, founders, innovators & leaders in India."
+    }
 ]

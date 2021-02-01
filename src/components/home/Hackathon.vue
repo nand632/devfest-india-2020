@@ -2,9 +2,9 @@
   
       <v-container>
           <v-row align="center" justify="center">
-            <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
+            <p class="google-font mb-0 mt-0 hackathon-head-line" style="font-weight: 350;font-size:180%">
               <b>
-                <span style="color: #3766FC;">Hackathon</span>
+                <span le="color: #3766FC;">Hackathon</span>
               </b>
             </p>
                 <v-row class="py-0 my-0">

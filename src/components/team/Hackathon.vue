@@ -80,30 +80,41 @@ export default {
 
 <style>
 .whiteThemeCard {
-  background: white;
+  background: rgb(255, 255, 255);
   border: 1px solid #e0e0e0;
   border-radius: 8px;
 }
 .cards-imgs {
-    height: 57px !important;
-    width: 57px !important;
+    height: 45px !important;
+    width: 45px !important;
     
-    transform: translateX(-50px);
+    transform: translateX(-60px);
 }
 .cards-main-head {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 12px;
     font-size: 20px !important;
 }
 .cards-sub-head {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 12px;
     margin-right: 5px;
     padding-bottom: 10px;
+    font-size: 12px !important;
 }
 .event-main-cards {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    height: 90% !important;
+    border-radius: 4px !important;
+    margin: 0 5px !important;
+    height: 95% !important;
 }
+.row.py-5.align-center.justify-center.grey.lighten-4 {
+    background-color: white !important;
+}
+p.google-font.mb-0.mt-0.hackathon-head-line {
+    margin-bottom: 15px !important;
+}
+
+
 </style>

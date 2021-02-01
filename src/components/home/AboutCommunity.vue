@@ -21,7 +21,7 @@
             </v-col>
              
                   <v-col md="8" sm="12" cols="12" class="py-0 my-0">
-                    <h3 class="google-font">About<b style="color:#3766FC;"> DevFair India</b></h3>
+                    <h3 class="google-font about-main-head">About<b style="color:#3766FC;"> DevFair India</b></h3>
                     <p class="google-font" style="font-size:100%">
                     Since life is appearing to phrases with this distinct way of life, we communities are also fostering new setups and plan to return you all with India’s biggest Student Tech Event: DevFair India 2021 with code inductions, Full fledge Workshops with cutting edge technologies, from code to Startup, fun & much more.
                     </p>
@@ -33,7 +33,7 @@
                         depressed
                         href="https://dsc.community.dev/parul-university/"
                         style="text-transform: capitalize;border-radius:4px;height:40px;padding:0 18px;"
-                        class="google-font mr-3 mb-3">
+                        class="google-font mr-3 mb-3 about-btns-main">
                     Learn More About DSC Devfair
                     </v-btn>
 
@@ -42,7 +42,7 @@
                     text
                     style="text-transform: capitalize;border-radius:4px;color:#3766FC;background-color:white;height:40px;padding:0 18px;"
                     href="https://twitter.com/hashtag/"
-                    class="google-font mt-0 mb-3"
+                    class="google-font mt-0 mb-3 about-btns-main"
                     target="_blank"
                     >#DevFairIndia</v-btn
                     >
@@ -60,3 +60,15 @@ export default {
     })
 }
 </script>
+<style scoped>
+.py-0.my-0.col-sm-12.col-md-8.col-12 {
+    height: 300px !important;
+}
+.about-main-head {
+    margin-bottom: 25px !important;
+    font-size: 28px !important;
+}
+.about-btns-main {
+    margin-top: 20px !important;
+}
+</style>
